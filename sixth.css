@@ -1,0 +1,67 @@
+.copy {
+    background-color: darkblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.man {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    list-style-type: none;
+    padding-left: 150px;
+    
+}
+
+.mono {
+    padding-left: 30px;
+    padding-right: 15px;
+}
+
+.mono button {
+    background-color: rgb(6, 206, 179);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 25px;
+}
+
+
+
+h4 {
+    width: max-content;
+    color: white;
+    padding-left: 15px;
+}
+
+.mama {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+img {
+    width: 30px ;
+    height: 30px ;
+}
+
+.copy .mj {
+    display: none;
+    background-color: red;
+    position: absolute;
+    border-radius: 20px;
+    padding: 10px;
+    list-style: none;
+}
+
+.mono:hover>ul.mj {
+    display: block;
+}
+

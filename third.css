@@ -1,0 +1,54 @@
+.closet {
+    background-color: blue;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    align-items: center;
+    height: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.alone {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img {
+    height: 30px;
+    width: 30px;
+}
+
+.nice {
+    width: 295px;
+    height: 160px;
+    margin: 250px auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.377);
+
+}
+
+p {
+    padding: 0 0 0 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    padding: 30px 0 0 30px;
+}
+
+.kite {
+    width: 20px;
+    height: 20px;
+    transform: rotate(45deg);
+    background-color: purple;
+    position: absolute;
+    top: 60%;
+    left: 60%;
+}

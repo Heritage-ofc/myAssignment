@@ -1,0 +1,69 @@
+.Earth {
+    background-color: rgb(27, 3, 243);
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    align-items: center;
+    height: 50px;
+}
+
+.Earth a {
+    text-decoration: none;
+    color: white;
+}
+
+.crazy {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img {
+    height: 30px;
+    width: 30px;
+}
+
+.run {
+    border: 1px solid 0,rgba(0, 0, 0, 0.404);
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.404);
+    padding-top: 20px;
+    height: 300px;
+    margin-left: 20px;
+}
+
+h2 {
+    text-align: left;
+    font-weight: bold;
+    color: blue;
+}
+
+.hp {
+    display: flex;
+    justify-content: space-evenly;
+    height: auto;
+    text-align: center;
+}
+
+.no {
+    border: 1px solid rgba(0, 0, 0, 0.404);
+    padding-top: 20px;
+    width: 300px;
+    height: 150px;
+    border-radius: 20px;
+    box-shadow: 0 10px 5px rgba(0, 0, 0, 0.404);
+}
+
+h3,
+i {
+    color: blue;
+    margin-bottom: 20px;
+}
+
+.no:has(input:checked) {
+    border: 4px dashed blue;
+}
+
+.no input {
+    display: none;
+}

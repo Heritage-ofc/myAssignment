@@ -1,0 +1,66 @@
+body {
+    background-color: lime;
+    
+}
+
+.no-name {
+    background-color: blue;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    align-items: center;
+    height: 50px;
+}
+
+
+
+.blood {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img {
+    height: 30px;
+    width: 30px;
+
+}
+
+.no-name a {
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 100%;
+    text-align: center;
+}
+
+.uni {
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 25px;
+
+}
+
+
+.fa-solid {
+    font-size: 30px;
+}
+
+img {
+    width: fit-content;
+    height: 30px;
+}
+
+button {
+    background-color: orange;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+}
