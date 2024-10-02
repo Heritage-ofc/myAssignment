@@ -54,7 +54,7 @@ header {
 }
 
 img {
-    width: fit-content;
+    width: 30px;
     height: 30px;
 }
 
@@ -76,6 +76,8 @@ button {
     background-color: gold;
     padding: 10px;
     position: absolute;
+    top: 5%;
+    left: 86%;
     display: none;
 }
 
@@ -85,7 +87,7 @@ li {
     margin: 10px;
 }
 
-.keno:focus + .omo-sha {
+.enough:hover>ul.omo-sha {
     display: block;
 }
  

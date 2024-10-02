@@ -51,7 +51,7 @@ li {
     margin: 10px;
 }
 
-.keno:focus + .omo-sha {
+.enough:hover>ul.omo-sha {
     display: block;
 }
  

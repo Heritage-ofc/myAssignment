@@ -84,6 +84,6 @@ li {
     margin: 10px;
 }
 
-.keno1:focus + .omo-sha1 {
+.enough1:hover>ul.omo-sha1 {
     display: block;
 }

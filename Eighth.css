@@ -44,7 +44,7 @@ li {
     margin: 10px;
 }
 
-.keno2:focus+.omo-sha2  {
+.enough2:hover>ul.omo-sha2 {
     display: block;
 }
 
