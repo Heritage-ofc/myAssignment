@@ -1,0 +1,57 @@
+.yung {
+    background-color: blue;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    align-items: center;
+    height: 50px;
+}
+
+.she img {
+    height: 30px;
+    width: 30px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+h1 {
+    text-align: center;
+    font-size: 45px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+}
+img {
+    width: fit-content;
+    height: 400px;
+}
+
+p {
+    font-size: 35px;
+    text-align: center;
+
+}
+
+.omo-sha {
+    width: fit-content;
+    background-color: gold;
+    padding: 10px;
+    position: absolute;
+    top: 5%;
+    left: 87%;
+    display: none;
+}
+
+li {
+    list-style-type: none;
+    background-color: blue;
+    margin: 10px;
+}
+
+.keno:focus + .omo-sha {
+    display: block;
+}
+ 

@@ -2,7 +2,6 @@
     background-color: blue;
     display: flex;
     justify-content: space-evenly;
-    gap: 20px;
     align-items: center;
     height: 50px;
 }
@@ -51,4 +50,29 @@ h1 {
     position: absolute;
     top: 60%;
     left: 60%;
+}
+
+.enough2 {
+
+    position: relative;
+}
+
+.omo-sha2 {
+    width: fit-content;
+    background-color: gold;
+    padding: 10px;
+    position: absolute;
+    top: 5%;
+    left: 86%;
+    display: none;
+}
+
+li {
+    list-style-type: none;
+    background-color: blue;
+    margin: 10px;
+}
+
+.keno2:focus+.omo-sha2  {
+    display: block;
 }

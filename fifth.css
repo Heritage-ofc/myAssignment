@@ -67,3 +67,23 @@ i {
 .no input {
     display: none;
 }
+
+.omo-sha1 {
+    width: fit-content;
+    background-color: gold;
+    padding: 10px;
+    position: absolute;
+    top: 5%;
+    left: 87%;
+    display: none;
+}
+
+li {
+    list-style-type: none;
+    background-color: blue;
+    margin: 10px;
+}
+
+.keno1:focus + .omo-sha1 {
+    display: block;
+}

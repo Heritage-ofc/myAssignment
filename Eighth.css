@@ -1,0 +1,103 @@
+.closet {
+    background-color: blue;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.alone {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img {
+    height: 30px;
+    width: 30px;
+}
+
+.enough2 {
+
+    position: relative;
+}
+
+.omo-sha2 {
+    width: fit-content;
+    background-color: gold;
+    padding: 10px;
+    position: absolute;
+    top: 5%;
+    left: 86%;
+    display: none;
+}
+
+li {
+    list-style-type: none;
+    background-color: blue;
+    margin: 10px;
+}
+
+.keno2:focus+.omo-sha2  {
+    display: block;
+}
+
+.info {
+    background-color: orangered;
+    width: 100px;
+    height: 100px;
+    margin-top: 100px;
+    transform: translateX(100px);
+    animation-name: heritage;
+    animation-duration: 5s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    /* animation-direction: reverse; */
+    animation-timing-function: ease-out;
+}
+
+ @keyframes heritage {
+    /* 0% {
+        transform: translate(0,0);
+    }
+    25% {
+        transform: translate(700px, 0) ;
+    }
+    50% {
+        transform: translate(700px,400px) ;
+    }
+    75% {
+        transform: translate(0, 400px) ;
+    }
+    100% {
+        transform: translate(0,0) ;
+    } */
+     0% {
+        margin-left: 0;
+        margin-top: 0;
+     }
+     25% {
+        margin-top: 0;
+        margin-left: 300px;
+     }
+     50% {
+        margin-left: 300px;
+        margin-top: 300px;
+     }
+
+     75% {
+        margin-top: 300px;
+        margin-left: 0;
+     }
+
+     100% {
+        margin-left: 0;
+        margin-top: 0;
+     }
+ }

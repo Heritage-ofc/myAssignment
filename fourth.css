@@ -1,6 +1,6 @@
 body {
     background-color: lime;
-    
+
 }
 
 .no-name {
@@ -64,3 +64,28 @@ button {
     font-size: 20px;
     padding: 10px;
 }
+
+.keno {
+    background-color: white;
+    padding: 5px;
+    font-size: 13px ;
+    
+}
+.omo-sha {
+    width: fit-content;
+    background-color: gold;
+    padding: 10px;
+    position: absolute;
+    display: none;
+}
+
+li {
+    list-style-type: none;
+    background-color: blue;
+    margin: 10px;
+}
+
+.keno:focus + .omo-sha {
+    display: block;
+}
+ 
